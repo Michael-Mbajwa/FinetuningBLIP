@@ -1,0 +1,5 @@
+I have presented a method for predicting Natural/Human Language summaries of mobile user interfaces (UI) by finetuning a pre-trained state-of-the-art image captioning model. I provided examples of situations where our work would be advantageous, such as improving UI screen search through natural language. I used the Enrico dataset, a curated version of Rico. I finetuned and evaluated 4 pretrained versions of the BLIP (https://github.com/salesforce/BLIP) model architecture based on a cleaned version of the Enrico dataset. Comparing the results of the finetuned models with the baseline pretrained models show that my finetuned model better predicts summaries for user interfaces.
+In future work, I intend to learn more about how each finetuned model performs across various UI categories. I also hope to properly access the performance of the finetuned models by asking humans to score the predictions.
+
+Read project report:
+ https://github.com/Michael-Mbajwa/FinetuningBLIP/blob/master/Project%20Report.pdf 
